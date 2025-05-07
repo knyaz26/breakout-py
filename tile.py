@@ -16,3 +16,4 @@ class Tile:
             int(self.tile_size.y - 4),
             self.color
             )
+
