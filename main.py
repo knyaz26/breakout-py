@@ -75,7 +75,6 @@ class Game:
         else:
             self.level_data = []
             self.tile_size_for_level = TILE_SIZE 
-            print("WARNING: Level data not found or malformed. Using default tile size.")
 
         self.player.reset()
         self.ball.reset(self.player.size)
